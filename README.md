@@ -1,4 +1,6 @@
 # Maze
+Just a Maze Game in Javascript, HTML and CSS
+
 
 ## Instructions:
 - Navigate the Maze: Use the "w" (up), "a" (left), "s" (down), and "d" (right) keys to move the blue circle (player) through the maze.
