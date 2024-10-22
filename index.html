@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/maze.css">
+    <title>Maze</title>
+</head>
+<body>
+<h1>Maze</h1>
+<div id="controls">
+    <label for="mazeSize">Maze Size:</label>
+    <input type="number" id="mazeSize" value="20" min="5" max="50">
+    <button id="generateMaze">Generate</button>
+    <select id="algorithm">
+        <option value="bfs">Breadth-First Search</option>
+        <option value="dfs">Depth-First Search</option>
+    </select>
+    <button id="solveMaze">Solve</button>
+    <button id="showRoute">Traced path </button>
+</div>
+<canvas id="mazeCanvas" width="600" height="600"></canvas>
+<script src="assets/code.js"></script>
+</body>
+</html>
